@@ -3,6 +3,6 @@ node{
    git 'https://github.com/Mayankraj-Max/JenkinsDemo'
   }
   stage('Install-Package'){
-    sh 'mvn install'
+    bat 'mvn install'
   }
 }
